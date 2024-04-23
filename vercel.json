@@ -2,7 +2,7 @@
     "version" : 2,
     "builds" : [{
         "src" : "./index.py",
-        "üse" : "@vercel/python",
+        "use" : "@vercel/python",
         "config" : {"runtime" : "python3.8"}
     }],
     "routes" : [{
