@@ -3,7 +3,7 @@
     {
       "src": "wsgi.py",
       "use": "@vercel/python",
-      "config": {"runtime": "python3.6"}
+      "config": { "maxLambdaSize": "15mb", "runtime": "python3.8" }
     }
   ],
   "routes": [
