@@ -1,0 +1,5 @@
+open cmd from this folder  and run : 
+.\venv\Scripts\activate
+ pip install -r requirements. txt
+
+then the last commad :  python index.py

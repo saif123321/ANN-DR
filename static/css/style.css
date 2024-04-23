@@ -1,0 +1,40 @@
+*{
+    font-family: poppins;
+}
+.btn-primary{
+    border-color: #ff5722 !important;
+    background-color: #ff5722 !important;
+}
+
+.loader , .create-loader {
+    border: 16px solid black;
+    border-radius: 50%;
+    border-top: 16px solid #ff5722;
+    border-bottom: 16px solid #ff5722;
+    width: 30px;
+    height: 30px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    margin-top: 7px;
+    margin-left: 7px;
+  }
+
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
