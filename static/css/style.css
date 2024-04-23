@@ -2,15 +2,15 @@
     font-family: poppins;
 }
 .btn-primary{
-    border-color: #ff5722 !important;
-    background-color: #ff5722 !important;
+    border-color: #2196f3 !important;
+    background-color: #2196f3 !important;
 }
 
 .loader , .create-loader {
     border: 16px solid black;
     border-radius: 50%;
-    border-top: 16px solid #ff5722;
-    border-bottom: 16px solid #ff5722;
+    border-top: 16px solid #2196f3;
+    border-bottom: 16px solid #2196f3;
     width: 30px;
     height: 30px;
     -webkit-animation: spin 2s linear infinite;
